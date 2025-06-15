@@ -1,7 +1,8 @@
 .player {
 background-color:black;
 width: 800px;
-height: 600px
+height: 600px;
+box-shadow: 0 0 10px rgba(0,0,0,100)
 }
 .js-video-container {
 width: 100%;
