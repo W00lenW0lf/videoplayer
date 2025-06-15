@@ -13,7 +13,8 @@ width: 100%
 }
 .js-play-button {
 border-style: none;
-color: white
+color: white;
+background-color: transparent
 }
 .js-play-button:hover {
 cursor: pointer
