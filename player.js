@@ -40,15 +40,15 @@ function createPlayer({
       player.pause();
     });
 
-    function activatePlayBtn(){
-      $playButton.attr("hidden", false);
-      $pauseButton.attr("hidden", true);
-    }
-
-    function activatePauseBtn(){
-      $playButton.attr("hidden", true);
-      $pauseButton.attr("hidden", false);
-    }
+//    function activatePlayBtn(){
+//      $playButton.attr("hidden", false);
+//      $pauseButton.attr("hidden", true);
+//    }
+//
+//    function activatePauseBtn(){
+//      $playButton.attr("hidden", true);
+//      $pauseButton.attr("hidden", false);
+//    }
 
     activatePlayBtn();
 

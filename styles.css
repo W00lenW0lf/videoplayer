@@ -14,8 +14,18 @@ width: 100%
 .js-play-button {
 border-style: none;
 color: white;
-background-color: transparent
+background-color: transparent;
+visibility: visible
 }
 .js-play-button:hover {
+cursor: pointer
+}
+.js-pause-button {
+border-style: none;
+color: white;
+background-color: transparent;
+visibility: visible
+}
+.js-pause-button:hover {
 cursor: pointer
 }
