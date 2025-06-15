@@ -1,0 +1,6 @@
+.js-play-button {
+border-style: none
+}
+.js-play-button:hover {
+cursor: pointer
+}
