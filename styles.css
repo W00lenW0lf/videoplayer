@@ -24,6 +24,9 @@ button {
     color: white;
     background-color: transparent;
     visibility: visible;
+    height: 3vh;
+    width: 4vh;
+    margin: 0.5vh;
 }
 
 .js-play-button:hover {
