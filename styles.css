@@ -44,3 +44,11 @@ button {
 .js-mute-button:hover {
     cursor: pointer;
 }
+
+.js-fullscreen-button {
+    cursor: pointer;
+}
+
+.empty-space {
+    min-width: 75%;
+}
