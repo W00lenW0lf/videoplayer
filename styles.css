@@ -8,19 +8,18 @@
     margin: auto;
 }
 
-
 .js-video-container {
     display: flex;
     flex-grow: 1;
 }
-
 
 .buttons {
     display: flex;
     flex-grow: 0;
 }
 
-.js-play-button {
+button {
+    font-size: 2vh;
     border-style: none;
     color: white;
     background-color: transparent;
@@ -31,33 +30,12 @@
     cursor: pointer;
 }
 
-.js-pause-button {
-    border-style: none;
-    color: white;
-    background-color: transparent;
-    visibility: visible;
-}
-
 .js-pause-button:hover {
     cursor: pointer;
 }
 
-.js-volume-button {
-    border-style: none;
-    color: white;
-    background-color: transparent;
-    visibility: visible;
-}
-
 .js-volume-button:hover {
     cursor: pointer;
-}
-
-.js-mute-button {
-    border-style: none;
-    color: white;
-    background-color: transparent;
-    visibility: visible;
 }
 
 .js-mute-button:hover {
