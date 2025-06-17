@@ -41,3 +41,25 @@
 .js-pause-button:hover {
     cursor: pointer;
 }
+
+.js-volume-button {
+    border-style: none;
+    color: white;
+    background-color: transparent;
+    visibility: visible;
+}
+
+.js-volume-button:hover {
+    cursor: pointer;
+}
+
+.js-mute-button {
+    border-style: none;
+    color: white;
+    background-color: transparent;
+    visibility: visible;
+}
+
+.js-mute-button:hover {
+    cursor: pointer;
+}
