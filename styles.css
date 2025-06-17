@@ -1,14 +1,10 @@
-html, body {
-    height: 100%;
-}
-
 .player {
     background-color:black;
     box-shadow: 0 0 10px rgba(0,0,0,100);
     display: flex;
     flex-direction: column;
-    height: 80%;
-    width: 80%;
+    height: 600px;
+    width: 800px;
     margin: auto;
 }
 
@@ -20,7 +16,6 @@ html, body {
 
 
 .buttons {
-    background-color:black;
     display: flex;
     flex-grow: 0;
 }
