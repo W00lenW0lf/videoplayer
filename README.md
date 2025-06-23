@@ -6,3 +6,4 @@
 
 Проект построен на библиотеке [Playable](https://github.com/epam/Playable), 
 использует jQuery и подключается через HTML, CSS и JavaScript. Интерфейс реализован вручную.
+https://w00lenw0lf.github.io/videoplayer/

@@ -13,42 +13,27 @@
     flex-grow: 1;
 }
 
-.buttons {
+.player-buttons {
     display: flex;
     flex-grow: 0;
 }
 
-.player-buttons > button {
-    font-size: 2vh;
+.player-button {
+    font-size: 30px;
     border-style: none;
     color: white;
     background-color: transparent;
     visibility: visible;
-    height: 3vh;
-    width: 4vh;
-    margin: 0.5vh;
+    height: 40px;
+    width: 60px;
+    margin: 10px;
 }
 
-.js-play-button:hover {
-    cursor: pointer;
-}
-
-.js-pause-button:hover {
-    cursor: pointer;
-}
-
-.js-volume-button:hover {
-    cursor: pointer;
-}
-
-.js-mute-button:hover {
-    cursor: pointer;
-}
-
-.js-fullscreen-button {
+.player-button:hover {
     cursor: pointer;
 }
 
 .empty-space {
-    min-width: 75%;
+    display: flex;
+    flex-grow: 1;
 }
