@@ -8,7 +8,7 @@
     margin: auto;
 }
 
-.js-video-container {
+.player-container {
     display: flex;
     flex-grow: 1;
 }
