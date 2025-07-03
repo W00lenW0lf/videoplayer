@@ -13,27 +13,75 @@
     flex-grow: 1;
 }
 
-.player-buttons {
+.control-panel {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
+}
+
+.left-buttons {
     display: flex;
     flex-grow: 0;
 }
 
+.central-space {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    margin: auto;
+}
+
+.right-buttons {
+    display: flex;
+    flex-grow: 0;
+}
+
+.time-left {
+    flex-grow: 0;
+    border-style: none;
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    width: 70px;
+    margin: auto;
+    margin-left: 6px;
+}
+
+.progress-bar {
+    background-color: #f8104d;
+    height: 5px;
+    visibility: visible;
+}
+
+.progress-background {
+    flex-grow: 1;
+    background-color: transparent;
+    height: 7px;
+    margin: auto;
+    margin-right: 5px;
+}
+
+.time-right {
+    flex-grow: 0;
+    border-style: none;
+    color: white;
+    background-color: transparent;
+    font-size: 19px;
+    width: 70px;
+    margin: auto;
+}
+
 .player-button {
-    font-size: 30px;
     border-style: none;
     color: white;
     background-color: transparent;
     visibility: visible;
-    height: 40px;
-    width: 60px;
-    margin: 10px;
+    font-size: 19px;
+    height: 39px;
+    width: 30px;
+    margin: 2px;
 }
 
 .player-button:hover {
     cursor: pointer;
-}
-
-.empty-space {
-    display: flex;
-    flex-grow: 1;
 }
