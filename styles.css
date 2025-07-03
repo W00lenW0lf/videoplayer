@@ -42,23 +42,38 @@
     color: white;
     background-color: transparent;
     font-size: 18px;
-    width: 70px;
+    width: 64px;
     margin: auto;
     margin-left: 6px;
+}
+
+.progress-background {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: transparent;
+    height: 6px;
+    margin: auto;
+    margin-right: 5px;
 }
 
 .progress-bar {
     background-color: #f8104d;
     height: 5px;
     visibility: visible;
+    border-radius: 5px;
 }
 
-.progress-background {
-    flex-grow: 1;
-    background-color: transparent;
-    height: 7px;
-    margin: auto;
-    margin-right: 5px;
+.ring {
+    background-color: #f8104d;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    margin-left: -8px;
 }
 
 .time-right {
