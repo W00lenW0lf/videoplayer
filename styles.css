@@ -31,6 +31,12 @@
     margin: auto;
 }
 
+.central-space:hover .progress-background .ring {
+    opacity: 1;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
 .right-buttons {
     display: flex;
     flex-grow: 0;
@@ -67,6 +73,7 @@
 }
 
 .ring {
+    opacity: 0;
     background-color: #f8104d;
     border-style: solid;
     border-color: white;
@@ -74,6 +81,8 @@
     height: 9px;
     width: 9px;
     margin-left: -8px;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
 }
 
 .time-right {
